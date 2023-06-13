@@ -532,7 +532,7 @@ public class TextToSpeechModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void addListener(Integer count) {
-        // Keep: Required for RN built in Event Emitter Calls.
+    public void addListener(String eventName) {
+
     }
 }
